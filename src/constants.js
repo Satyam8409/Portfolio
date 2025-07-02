@@ -47,7 +47,7 @@ import juscoLogo from './assets/education_logo/juscoLogo.jpeg'
 import marwadiLogo from './assets/education_logo/marwadiLogo.jpeg'
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
+import Swiggy from './assets/work_logo/swiggy.png';
 import csprepLogo from './assets/work_logo/cs_prep.png';
 import movierecLogo from './assets/work_logo/movie_rec.png';
 import taskremLogo from './assets/work_logo/task_rem.png';
@@ -204,74 +204,78 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "GitHub Profile Detective",
-      description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
+      title: " Swiggy Clone– Food Delivery Web",
+      description:"Developed a full-stack Swiggy clone with a React.js frontend and Node.js/Express backend, featuring restaurant search, dynamic menus, cart management, and secure API proxying. Deployed on Vercel with CI/CD workflows and a responsive UI built using Tailwind CSS.",
+      image: Swiggy,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "live API", "Tailwind"],
+      github: "https://github.com/Satyam8409/Swiggy-Project",
+      webapp: "https://swiggy-project-steel.vercel.app/",
     },
     {
       id: 1,
-      title: "CS Prep",
+      title: "Github Profile Fetcher",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
+        "A web application that fetches and displays detailed GitHub profile information including repositories, followers, and contribution stats. Users can search any GitHub username to view an organized profile summary.",
       image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
+      tags: ["React", "Tailwind", "API", "React-Router"],
+      github: "https://github.com/Satyam8409/Github-Profile-Detective",
+      webapp: "https://github-profile-detective-eight.vercel.app/",
     },
     {
       id: 2,
-      title: "Movie Recommendation App",
+      title: "Infinite-bubble",
       description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+    "A fun and interactive web game where users can pop infinite bubbles dynamically rendered on the screen. The project demonstrates JavaScript DOM manipulation and smooth animations.",
       image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/Satyam8409/Infinite-bubble-project",
+      webapp: "https://infinite-bubble-project.vercel.app/",
     },
+    
     {
       id: 3,
-      title: "Email Validator NPM Package",
+      title: "Dynamic-Quiz",
       description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
+    "A full-stack quiz platform that allows users to take dynamic quizzes, track scores,. Built with Javascript.",
       image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+      tags: [ "Html","css", "Javascript"],
+      github: "https://github.com/Satyam8409/Dynamic-Quiz",
+      webapp: "https://dynamic-quiz-ruddy.vercel.app/",
     },
+    
     {
       id: 4,
-      title: "Task Reminder Chrome Extension Tool",
+      title: "Weather-Fetcher",
       description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
+    "A weather application that fetches real-time weather data for any location. Users can search by city to view temperature, humidity, and weather conditions with a clean and responsive UI.",
       image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+      tags: ["JavaScript", "API", "HTML", "CSS"],
+      github: "https://github.com/Satyam8409/Weather-fetcher",
+      webapp: "https://weather-fetcher-six.vercel.app/",
     },
+    
     {
       id: 5,
-      title: "Webverse Digital",
+      title: "Astrology-Hub",
       description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
+    "A modern astrology website where users can explore zodiac signs, daily horoscopes, and astrological predictions. Built with HTML, CSS, and JavaScript animations for an engaging experience.",
       image: webverLogo,
       tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
+      github: "https://github.com/Satyam8409/Astrology-Hub",
+      webapp: "https://astrology-hub.vercel.app/",
     },
+    
     {
       id: 6,
-      title: "Coding Master",
+      title: "Portfolio",
       description:
-        "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
+    "A personal portfolio website showcasing projects, skills, and contact information. Designed with React and styled components to create a professional and visually appealing profile.",
       image: cmLogo,
       tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
+      github: "https://github.com/Satyam8409/Portfolio",
+      webapp: "https://portfolio-inky-nu-96.vercel.app/",
     },
+    /*
     {
       id: 7,
       title: "Image Search App",
@@ -292,4 +296,5 @@ export const SkillsInfo = [
       github: "https://github.com/codingmastr/Image-Background-Remover",
       webapp: "https://removeyourbg.netlify.app/",
     },
+    */
   ];  
