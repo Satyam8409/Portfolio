@@ -271,7 +271,7 @@ export const SkillsInfo = [
       description:
     "A personal portfolio website showcasing projects, skills, and contact information. Designed with React and styled components to create a professional and visually appealing profile.",
       image: cmLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
+      tags: ["React JS", "Tailwind", "Email JS", "DaisyUI"],
       github: "https://github.com/Satyam8409/Portfolio",
       webapp: "https://portfolio-inky-nu-96.vercel.app/",
     },
