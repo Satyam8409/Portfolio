@@ -187,7 +187,7 @@ export const SkillsInfo = [
       school: "Jusco School SouthPark, Bistupur",
       date: "Apr 2019 - March 2021",
       grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
+      desc: "I completed my class 12 education from Jusco School SouthPark, Bistupur, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM).",
       degree: "CBSE(XII) - PCM ",
     },
     {
@@ -196,7 +196,7 @@ export const SkillsInfo = [
       school: "Central Public School",
       date: "Apr 2018 - March 2019",
       grade: "90.20%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
+      desc: "I completed my class 10 education from Central Public School, Adityapur, under the CBSE board, where I studied Science with Computer.",
       degree: "CBSE(X)",
     },
   ];
@@ -204,6 +204,16 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "CodeSphere-online coding platform",
+      description:
+        "A fullstack project where both backend and frontend has been implemented from scratch, user authentication and authorization were implemented using JWT token to handle user session, logout and rate-limiter fetaure implemented using redis db , for code submition used judge0 ,helps in reducing load from server  ",
+      image: imagesearchLogo,
+      tags: ["React JS","Tailwind CSS","DaisyUI","Node JS","Express JS","Redis db","mongoDB","Judge0", "API", "CSS", "Javascript"],
+      github: "https://github.com/Satyam8409/Leetcode-frontend",
+      webapp: "https://leetcode-frontend-six.vercel.app/signup",
+    },
+    {
+      id: 1,
       title: " Swiggy Clone– Food Delivery Web",
       description:"Developed a full-stack Swiggy clone with a React.js frontend and Node.js/Express backend, featuring restaurant search, dynamic menus, cart management, and secure API proxying. Deployed on Vercel with CI/CD workflows and a responsive UI built using Tailwind CSS.",
       image: Swiggy,
@@ -212,7 +222,7 @@ export const SkillsInfo = [
       webapp: "https://swiggy-project-steel.vercel.app/",
     },
     {
-      id: 1,
+      id: 2,
       title: "Github Profile Fetcher",
       description:
         "A web application that fetches and displays detailed GitHub profile information including repositories, followers, and contribution stats. Users can search any GitHub username to view an organized profile summary.",
@@ -222,7 +232,7 @@ export const SkillsInfo = [
       webapp: "https://github-profile-detective-eight.vercel.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Infinite-bubble",
       description:
     "A fun and interactive web game where users can pop infinite bubbles dynamically rendered on the screen. The project demonstrates JavaScript DOM manipulation and smooth animations.",
@@ -233,7 +243,7 @@ export const SkillsInfo = [
     },
     
     {
-      id: 3,
+      id: 4,
       title: "Dynamic-Quiz",
       description:
     "A full-stack quiz platform that allows users to take dynamic quizzes, track scores,. Built with Javascript.",
@@ -244,7 +254,7 @@ export const SkillsInfo = [
     },
     
     {
-      id: 4,
+      id: 5,
       title: "Weather-Fetcher",
       description:
     "A weather application that fetches real-time weather data for any location. Users can search by city to view temperature, humidity, and weather conditions with a clean and responsive UI.",
@@ -255,7 +265,7 @@ export const SkillsInfo = [
     },
     
     {
-      id: 5,
+      id: 6,
       title: "Astrology-Hub",
       description:
     "A modern astrology website where users can explore zodiac signs, daily horoscopes, and astrological predictions. Built with HTML, CSS, and JavaScript animations for an engaging experience.",
@@ -266,7 +276,7 @@ export const SkillsInfo = [
     },
     
     {
-      id: 6,
+      id: 7,
       title: "Portfolio",
       description:
     "A personal portfolio website showcasing projects, skills, and contact information. Designed with React and styled components to create a professional and visually appealing profile.",
