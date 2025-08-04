@@ -21,36 +21,17 @@ const Contact = () => {
         () => {
           setIsSent(true);
           form.current.reset(); // Reset form fields after sending
-          toast.success("Message sent successfully! ✅", {
-            position: "top-right",
-            autoClose: 3000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            theme: "dark",
-          });
+          toast.success("Message sent successfully! ✅", { position: "top-right", autoClose: 3000, hideProgressBar: false, closeOnClick: true, pauseOnHover: true, draggable: true, theme: "dark",});
         },
         (error) => {
           console.error("Error sending message:", error);
-          toast.error("Failed to send message. Please try again.", {
-            position: "top-right",
-            autoClose: 3000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            theme: "dark",
-          });
+          toast.error("Failed to send message. Please try again.", { position: "top-right", autoClose: 3000, hideProgressBar: false, closeOnClick: true, pauseOnHover: true, draggable: true, theme: "dark",});
         }
       );
   };
 
   return (
-    <section
-      id="contact"
-      className="flex flex-col items-center justify-center py-24 px-[12vw] md:px-[7vw] lg:px-[20vw]"
-    >
+    <section id="contact" className="flex flex-col items-center justify-center py-24 px-[12vw] md:px-[7vw] lg:px-[20vw]">
       {/* Toast Container */}
       <ToastContainer />
 
@@ -70,40 +51,13 @@ const Contact = () => {
         </h3>
 
         <form ref={form} onSubmit={sendEmail} className="mt-4 flex flex-col space-y-4">
-          <input
-            type="email"
-            name="user_email"
-            placeholder="Your Email"
-            required
-            className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
-          />
-          <input
-            type="text"
-            name="user_name"
-            placeholder="Your Name"
-            required
-            className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
-          />
-          <input
-            type="text"
-            name="subject"
-            placeholder="Subject"
-            required
-            className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
-          />
-          <textarea
-            name="message"
-            placeholder="Message"
-            rows="4"
-            required
-            className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
-          />
+          <input type="email" name="user_email" placeholder="Your Email" required className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"/>
+          <input type="text" name="user_name" placeholder="Your Name" required className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"/>
+          <input type="text" name="subject" placeholder="Subject" required className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"/>
+          <textarea name="message" placeholder="Message" rows="4" required className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"/>
           
           {/* Send Button */}
-          <button
-            type="submit"
-            className="w-full bg-gradient-to-r from-purple-600 to-pink-500 py-3 text-white font-semibold rounded-md hover:opacity-90 transition"
-          >
+          <button type="submit" className="w-full bg-gradient-to-r from-purple-600 to-pink-500 py-3 text-white font-semibold rounded-md hover:opacity-90 transition">
             Send
           </button>
         </form>

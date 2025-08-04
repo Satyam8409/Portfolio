@@ -10,17 +10,8 @@ const BlurBlob = ({ position, size }) => {
   return (
     <div
       className="absolute"
-      style={{
-        top: top,
-        left: left,
-        width: width,
-        height: height,
-        transform: 'translate(-50%, -50%)',
-      }}
-    >
-      <div
-        className="w-full h-full bg-purple-500 rounded-full opacity-20 blur-3xl animate-blob"
-      ></div>
+      style={{ top: top, left: left, width: width, height: height, transform: 'translate(-50%, -50%)',}}>
+      <div className="w-full h-full bg-purple-500 rounded-full opacity-20 blur-3xl animate-blob"></div>
     </div>
   );
 };
