@@ -59,7 +59,7 @@ const Navbar = () => {
         {/* Social Icons */}
         <div className="hidden md:flex space-x-4">
           <a href="https://github.com/Satyam8409" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#8245ec]"><FaGithub size={24} /></a>
-          <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#8245ec]"><FaLinkedin size={24} /></a>
+          <a href="https://www.linkedin.com/in/satyam-singh8409/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#8245ec]"><FaLinkedin size={24} /></a>
         </div>
 
         {/* Mobile Menu Icon */}
