@@ -11,14 +11,14 @@ import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
 import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
-// import javaLogo from './assets/tech_logo/java.png';
+import javaLogo from './assets/tech_logo/java.png';
 import typescriptLogo from './assets/tech_logo/typescript.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
-import mcLogo from './assets/tech_logo/mc.png';
-import netlifyLogo from './assets/tech_logo/netlify.png';
+// import mcLogo from './assets/tech_logo/mc.png';
+import netlifyLogo from './assets/tech_logo/vercel.png';
 
 // Education Section Logo's
 import cpsLogo from './assets/education_logo/cpsLogo.png'
@@ -62,7 +62,7 @@ export const SkillsInfo = [
     skills: [
       { name: 'C', logo: cLogo },
       { name: 'C++', logo: cppLogo },
-      { name: 'Java', logo: javaLogo },
+      // { name: 'Java', logo: javaLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'TypeScript', logo: typescriptLogo },
     ],
@@ -74,7 +74,7 @@ export const SkillsInfo = [
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'Postman', logo: postmanLogo },
-      { name: 'Compass', logo: mcLogo },
+      // { name: 'Compass', logo: mcLogo },
       { name: 'Netlify', logo: netlifyLogo },
     ],
   },
