@@ -11,7 +11,6 @@ import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
 import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
-import javaLogo from './assets/tech_logo/java.png';
 import typescriptLogo from './assets/tech_logo/typescript.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
@@ -27,6 +26,9 @@ import marwadiLogo from './assets/education_logo/marwadiLogo.jpeg'
 
 // Project Section Logo's
 import Swiggy from './assets/work_logo/swiggy.png';
+import layout from './assets/work_logo/layout.png';
+import chart from './assets/work_logo/chart.png';
+import precious from './assets/work_logo/precious.png';
 import csprepLogo from './assets/work_logo/cs_prep.png';
 import movierecLogo from './assets/work_logo/movie_rec.png';
 import taskremLogo from './assets/work_logo/task_rem.png';
@@ -118,79 +120,95 @@ export const SkillsInfo = [
       image: imagesearchLogo,
       tags: ["React JS","Tailwind CSS","DaisyUI","Node JS","Express JS","Redis db","mongoDB","Judge0", "API", "CSS", "Javascript"],
       github: "https://github.com/Satyam8409/Leetcode-frontend",
-      webapp: "https://leetcode-frontend-six.vercel.app/signup",
     },
     {
       id: 1,
       title: " Swiggy Clone– Food Delivery Web",
       description:"Developed a full-stack Swiggy clone with a React.js frontend and Node.js/Express backend, featuring restaurant search, dynamic menus, cart management, and secure API proxying. Deployed on Vercel with CI/CD workflows and a responsive UI built using Tailwind CSS.",
       image: Swiggy,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "live API", "Tailwind"],
-      github: "https://github.com/Satyam8409/Swiggy-Project",
-      webapp: "https://swiggy-project-steel.vercel.app/",
+      tags: ["HTML", "CSS", "TypeScript", "React JS", "Swiggy live API", "Tailwind","Dummy Json credential"],
+      github: "https://github.com/Satyam8409/swiggy_clone_typescript",
     },
     {
       id: 2,
+      title: "Simform Solutions Internship Layout Practice",
+      description:"A web interface developed during my internship at Simform Solutions, where I designed and implemented the complete frontend layout using HTML and CSS. I worked on creating structured, responsive, and visually consistent user interfaces.",
+      image: layout,
+      tags: ["HTML", "CSS", "Frontend Development", "Responsive Design"],
+      github: "https://github.com/satyamsingh-simform/layout-practice",
+    },
+    {
+      id: 3,
+      title: "Precious Collection",
+      description:"A UI-focused frontend project developed as part of a practical test, featuring a clean and visually engaging collection-based interface. I worked on designing and implementing the complete layout with a focus on responsive structure, styling, spacing, typography, and overall user experience.",
+      image: precious,
+      tags: ["React", "Session Storage", "TypeScript", "Tailwind", "Json Server"],
+      github: "https://github.com/Satyam8409/Precious_Collection",
+    },
+    {
+      id: 4,
+      title: "Bar Chart Creator",
+      description:"A UI-focused frontend project developed as part of a practical test, featuring a clean and visually engaging collection-based interface. I worked on designing and implementing the complete layout with a focus on responsive structure, styling, spacing, typography, and overall user experience.",
+      image: chart,
+      tags: ["React", "Session Storage", "TypeScript", "Tailwind"],
+      github: "https://github.com/satyamsingh-simform/react-p-4-bar-chart-creator",
+    },
+    {
+      id: 5,
       title: "Github Profile Fetcher",
       description:
         "A web application that fetches and displays detailed GitHub profile information including repositories, followers, and contribution stats. Users can search any GitHub username to view an organized profile summary.",
       image: csprepLogo,
       tags: ["React", "Tailwind", "API", "React-Router"],
       github: "https://github.com/Satyam8409/Github-Profile-Detective",
-      webapp: "https://github-profile-detective-eight.vercel.app/",
     },
     {
-      id: 3,
+      id: 6,
       title: "Infinite-bubble",
       description:
     "A fun and interactive web game where users can pop infinite bubbles dynamically rendered on the screen. The project demonstrates JavaScript DOM manipulation and smooth animations.",
       image: movierecLogo,
       tags: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/Satyam8409/Infinite-bubble-project",
-      webapp: "https://infinite-bubble-project.vercel.app/",
     },
     
     {
-      id: 4,
+      id: 7,
       title: "Dynamic-Quiz",
       description:
     "A full-stack quiz platform that allows users to take dynamic quizzes, track scores,. Built with Javascript.",
       image: npmLogo,
       tags: [ "Html","css", "Javascript"],
       github: "https://github.com/Satyam8409/Dynamic-Quiz",
-      webapp: "https://dynamic-quiz-ruddy.vercel.app/",
     },
     
     {
-      id: 5,
+      id: 8,
       title: "Weather-Fetcher",
       description:
     "A weather application that fetches real-time weather data for any location. Users can search by city to view temperature, humidity, and weather conditions with a clean and responsive UI.",
       image: taskremLogo,
       tags: ["JavaScript", "API", "HTML", "CSS"],
       github: "https://github.com/Satyam8409/Weather-fetcher",
-      webapp: "https://weather-fetcher-six.vercel.app/",
     },
     
     {
-      id: 6,
+      id: 9,
       title: "Astrology-Hub",
       description:
     "A modern astrology website where users can explore zodiac signs, daily horoscopes, and astrological predictions. Built with HTML, CSS, and JavaScript animations for an engaging experience.",
       image: webverLogo,
       tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
       github: "https://github.com/Satyam8409/Astrology-Hub",
-      webapp: "https://astrology-hub.vercel.app/",
     },
     
     {
-      id: 7,
+      id: 10,
       title: "Portfolio",
       description:
     "A personal portfolio website showcasing projects, skills, and contact information. Designed with React and styled components to create a professional and visually appealing profile.",
       image: cmLogo,
       tags: ["React JS", "Tailwind", "Email JS", "DaisyUI"],
       github: "https://github.com/Satyam8409/Portfolio",
-      webapp: "https://portfolio-inky-nu-96.vercel.app/",
     },
   ];  
